@@ -34,5 +34,6 @@ services:
       - ./frontend:/app
       - /app/node_modules
 
+
 volumes:
   mongo_data: 

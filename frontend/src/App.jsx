@@ -37,6 +37,7 @@ export default function App() {
     await loadTodos();
   }
 
+  
   async function renameTodo(todo) {
     const next = prompt("New title:", todo.title);
     if (next === null) return;

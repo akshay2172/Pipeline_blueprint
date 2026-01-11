@@ -11,7 +11,6 @@ sudo apt-get install -y git docker.io docker-compose-plugin
 sudo systemctl enable --now docker
 
 # 4) Allow current user to run docker without sudo
-
 sudo usermod -aG docker "$USER"
 
 # 5) Create required directory structure
